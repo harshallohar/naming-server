@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "1ceb9292-ec11-428f-bfeb-c95f4e42dc4a",
+    "name": "urls",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-12-10T15:47:59.264Z",
+    "modified": "2022-12-10T15:47:59.264Z",
+    "data": [
+      {
+        "name": "URL",
+        "value": "3.136.155.225/inf/napi"
+      },
+      {
+        "name": "LURL",
+        "value": "localhost:4545"
+      }
+    ]
+  }
+]

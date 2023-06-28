@@ -1,0 +1,55 @@
+[
+  {
+    "_id": "d6fa6d63-ff19-4e9e-a539-b304a74814db",
+    "colId": "f9683e3e-0133-406e-a3a0-42a745c21a11",
+    "containerId": "",
+    "name": "Rename",
+    "url": "{{LURL}}/rename/7600165020522b1",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-09T16:16:29.704Z",
+    "modified": "2022-12-16T15:17:09.533Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Green_Tray\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "e00fd4c2-73b7-4d6f-bc4d-c38e1bfe6519",
+    "colId": "f9683e3e-0133-406e-a3a0-42a745c21a11",
+    "containerId": "",
+    "name": "get id for name",
+    "url": "{{LURL}}/id?name=Green_Tray",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-12-10T15:02:28.511Z",
+    "modified": "2022-12-20T14:31:58.958Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "name",
+        "value": "Green_Tray",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "86562445-1cbc-4c40-b09b-1f9b43b0dd4c",
+    "colId": "f9683e3e-0133-406e-a3a0-42a745c21a11",
+    "containerId": "",
+    "name": "Get all names",
+    "url": "{{LURL}}/all-names",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-12-10T15:02:59.199Z",
+    "modified": "2022-12-20T14:32:38.954Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

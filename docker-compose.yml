@@ -9,7 +9,7 @@ services:
           - 4545:4545
         volumes:
           - naming:/app/public/
-        restart: always
+        #restart: always
         environment:
           DB_FILE_PATH: "/app/public/test.db"
           PORT: 4545
